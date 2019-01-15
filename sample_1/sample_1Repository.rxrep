@@ -1,0 +1,644 @@
+﻿<repository
+id="4b4797a6-d66a-4f71-874c-40fd10ebca80"
+name="sample_1Repository"
+rxversion="7.2">
+	<codegen
+	classname="sample_1Repository"
+	namespace="sample_1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c6f2f9b9-9017-475b-bb67-96a89cccf04e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="5ffe4bba-5a3a-4b04-940a-ed9df8392305"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="10a6ab0c-98cc-49bd-aaa4-9d553ba73266"
+			name="EnterYourName"
+			refimgid="93cc33c0-3052-4d73-8c38-ac1117ad1c14"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="7bed0da2-f91d-4a7f-b32a-010a64e4c761"
+			name="BtnSubmitUserName"
+			refimgid="90a0f4a8-9405-4d99-a626-4fc46955317a"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="a023ef5c-9f81-4a22-ad2b-3ae166b4a780"
+			name="RxButtonExit"
+			refimgid="2b1c4145-8bef-4f06-bb42-006949a4f9a9"
+			refpath="/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="8176269e-df18-4699-be28-361ce42dd46c"
+			name="TestDatabase"
+			refimgid="c743f063-6622-4a9b-b587-68fececa5f16"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Test database']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+			</item>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="1be18d95-6059-4db8-9d69-ea57ec45bc43"
+			isrooted="True"
+			name="RxTabStandard"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="a7a43d17-9868-4c8b-adec-d9471f5a3ae7"
+				name="RdbMale"
+				refimgid="34b53f6a-5a3d-4410-b1aa-cb464a573561"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='grpGender']/radiobutton[@controlname='rdbMale']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbMale']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0fa2acf5-3247-4b34-b232-ea48067d6a1e"
+				name="FirstName"
+				refimgid="543a0ebe-05b9-4c4f-893a-d01eca333327"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']/text[@accessiblename='First name']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='First name']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="3991703d-cf5d-4b24-a64d-1a00b6efac52"
+				name="LastName"
+				refimgid="a266b780-f7eb-4ffc-9ee5-8e31854710c3"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']/text[@accessiblename='Last name']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='Last name']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="90d19ff7-6927-4a9c-a42d-25b0a9f5f792"
+				name="BtnAddPerson"
+				refimgid="e6e47d48-444b-43e0-a961-e147281a095b"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="da7c423d-d8f6-4bb7-92e9-2cdea40217d3"
+				name="BtnDeletePerson"
+				refimgid="ce03176d-1fb0-42d7-befb-a665f3e69155"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']
+				</item>
+				<item
+				addcaps="combobox,control,nativewindow"
+				capname="combobox"
+				id="3bf7041e-6bc9-40a4-bb0f-8cb71c6b98e2"
+				name="CmbDepartment"
+				refimgid="b8b920f8-ae8f-4ac5-bcc2-90b38a196f27"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="17401e34-178a-4dc0-975b-034e66b77d4f"
+				name="Button上へ"
+				refimgid="da60a12e-6ddb-4f17-8ce9-461422bec66f"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/container/button[@accessiblename='上へ']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/?/?/button[@accessiblename='&#19978;&#12408;']
+				</item>
+				<item
+				addcaps="list,control,nativewindow"
+				capname="list"
+				id="cde8989a-da12-4d86-8c8f-8ae30d689b41"
+				name="LstPersonList"
+				refimgid="aba5240a-3259-454b-a060-e42ebcbf0b5e"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="a313a6f6-880b-4f31-b723-8e5920dd25bb"
+				name="TestTestMale3ProjectManagement"
+				refimgid="79851006-c711-49b8-aecb-c828198aed41"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/list/list/listitem[@accessiblename~'^test\ test\ \(male,\ 3\)\ Proje']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']/?/?/listitem[@accessiblename~'^test\ test\ \(male,\ 3\)\ Proje']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="b49fdc9d-63b5-4c52-bf81-9ac6057dc250"
+			name="UIElementTestArea"
+			refimgid="94dcd173-4dca-46f0-b968-2781f0230dcf"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='UI-element test area']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='UI-element test area']
+			</item>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="f08654ce-2eec-4bfd-b90d-36e5d1965cc1"
+			isrooted="True"
+			name="RxTabUIElements"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabUIElements']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tree,accessible"
+				capname="tree"
+				id="ccdc176f-cc75-4a2c-a2f8-44da66f28611"
+				name="TreeView"
+				refimgid="0daa82f0-6386-4d1f-8a2a-f5e4a5002eb7"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUIElements']/tree/tree[@accessiblename='Tree view']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']
+				</item>
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="8f248aaa-807d-4cd7-9803-a6a464c92340"
+				name="RdbRedLight"
+				refimgid="69419c49-f317-487d-b897-8be474cc7547"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUIElements']/container/container[@controlname='grpBoxRadioButton']/radiobutton[@controlname='rdbRedLight']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/radiobutton[@controlname='rdbRedLight']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="44372e95-10b0-4321-914d-06baeb2241ab"
+				name="FirstName行2"
+				refimgid="9fb81c1b-03b4-4d6f-ae99-840fccaca77c"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUIElements']/table/row[@accessiblename='行 2']/cell[@accessiblename='FirstName 行 2']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName &#34892; 2']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="14b919d4-f305-4cd8-a58d-5150af660e0d"
+				name="WebTesting"
+				refimgid="84993245-f2ef-4efc-be4f-b74925ff2231"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUIElements']/tree/tree/treeitem[@accessiblename='Web and mobile testing']/treeitem[@accessiblename='Web testing']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/tree[@controlname='treTestTreeView']//treeitem[@accessiblename='Web testing']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="fa270ec3-c804-48e0-882a-c5d5a8a844ea"
+			name="UploadTesting"
+			refimgid="9e7e7909-8081-4235-a548-56c27582ca3c"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Upload testing']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Upload testing']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="4e1ea780-6a69-41f5-8bdd-a763242c87c9"
+			name="RBSlow"
+			refimgid="f7c2446b-1355-4382-bf16-e1ea44d9ff67"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUpload']/container/radiobutton[@controlname='rBSlow']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUpload']/?/?/radiobutton[@controlname='rBSlow']
+			</item>
+			<item
+			addcaps="unknown,accessible"
+			capname="unknown"
+			id="f0637e0e-2951-4058-a29b-4956bd8a630a"
+			name="ResetUpload"
+			refimgid="14c6da08-889a-4494-9957-d95da7fd5c0e"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabUpload']/button[@controlname='btnResetUpload']/element[@accessiblename='Reset upload']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUpload']/?/?/element[@accessiblename='Reset upload']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="d7688285-9bba-44a7-a8a1-218d389c4bbb"
+			name="ImageBasedAutomation"
+			refimgid="6ca013cd-07ba-451c-8185-f65cc057bd78"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Image-based automation']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Image-based automation']
+			</item>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="b3e9e1db-2ce3-4c39-9f2c-d1754c088064"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="9672f707-03f0-425f-abaf-a77f4823b59f"
+			name="ProjectManagement"
+			refimgid="3d8d0810-e0ef-4d12-8d33-aaf50a5e73d8"
+			refpath="/list[@controlid='1000']/listitem[@text='Project Management']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Project Management']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="0da3aa8b-f7df-4a72-b48c-006148b8f305"
+		isrooted="True"
+		name="WindowsApp電卓"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="fa4f37ba-8dc4-4376-ac54-2c74b88bd7ee"
+			name="SomeText"
+			refimgid="6d9f5fbd-078a-41c3-9ed4-49c40bbbeead"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='NavButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@name='&#59136;']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="53e0dc9c-765e-4367-98b1-ddc2d7120f1e"
+			name="Text1"
+			refimgid="be774737-7497-4b34-90cf-610a5bf957d9"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='numberPad']/button[@automationid='num1Button']/text[@name='1']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num1Button']/text[@name='1']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="4a6f2ab5-a4fb-43c2-9fdc-c35d8b7ce6d4"
+			name="NavButton"
+			refimgid="aec6514c-8ff5-47e8-890c-b9d54f5ff0d8"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='NavButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='NavButton']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="079ee58d-4263-428c-b884-7ad7ede8a9fa"
+			name="ListViewHeaderItem"
+			refimgid="b9587f31-ece8-4235-84b1-4a8c86c22055"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/form[@automationid='PaneRoot']/list/container[1]"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/list[@automationid='FlyoutNav']/container[1]
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="4b8fd04d-0b18-46ea-adec-111f51e31cc9"
+			name="Close"
+			refimgid="acefcc9f-03a2-4994-b549-90e6625c78db"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/titlebar[@automationid='TitleBar' and @name='電卓 - 電卓' and @classname='ApplicationFrameTitleBarWindow']/button[@automationid='Close']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']
+			</item>
+			<folder
+			capname="list"
+			id="a47203dc-e199-46e1-99a5-95a3f8444d4d"
+			isrooted="True"
+			name="FlyoutNav"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvirtualizeditem"
+				capname="listitem"
+				id="354b641e-63af-459a-84c4-b09633e2de89"
+				name="標準電卓"
+				refimgid="db3d2513-5adf-4be0-9c26-2f229cdbc0fa"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/form[@automationid='PaneRoot']/list/container[1]/listitem[@name='標準 電卓']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/list[@automationid='FlyoutNav']/?/?/listitem[@name='&#27161;&#28310; &#38651;&#21331;']
+				</item>
+				<item
+				addcaps="text,uiautomation"
+				capname="text"
+				id="3e5eb8f7-3be8-4598-804b-557ef6c06198"
+				name="Standard"
+				refimgid="0b856580-9b08-41ab-9d2a-f0f5f26ec394"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/form[@automationid='PaneRoot']/list/container[1]/listitem[@name='標準 電卓']/text[@automationid='Standard']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/list[@automationid='FlyoutNav']/?/?/listitem[@name='&#27161;&#28310; &#38651;&#21331;']/text[@automationid='Standard']
+				</item>
+				<item
+				addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvirtualizeditem"
+				capname="listitem"
+				id="1c9ef9c0-9e5d-4825-9b69-84c8841e6913"
+				name="電力動力コンバーター"
+				refimgid="8ffa78ca-3f43-480b-86e5-ca81e6696084"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/form[@automationid='PaneRoot']/list/container[2]/listitem[@name='電力/動力 コンバーター']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/list[@automationid='FlyoutNav']/?/?/listitem[@name='&#38651;&#21147;/&#21205;&#21147; &#12467;&#12531;&#12496;&#12540;&#12479;&#12540;']
+				</item>
+				<basepath>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/list[@automationid='FlyoutNav']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="074db99a-0469-4da7-9c0b-ec317c3c90c3"
+			name="Num1Button"
+			refimgid="cb446c03-4411-4d43-9677-54d762dc7a27"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num1Button']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num1Button']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c9576e64-e112-4ac1-8ce8-92c6e2521617"
+			name="NegateButton"
+			refimgid="b9cd411f-98db-4730-b228-ff732ca2dfb2"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='negateButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='negateButton']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="ba3c2c1a-4c1c-4f67-b203-6a4370ba33e4"
+			name="Text2"
+			refimgid="b965be60-9c7e-4430-a29d-e266fbaf2031"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num2Button']/text[@name='2']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num2Button']/text[@name='2']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="e68aa60c-1176-471d-af1a-e084ebd51262"
+			name="SomeText1"
+			refimgid="63dd8005-4b71-4d81-af11-edea2dcb791b"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/button[@automationid='negateButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@name='&#59725;']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="85eb3b13-b32d-4c4b-837c-df65c2e522d8"
+			name="Num6Button"
+			refimgid="b98580fa-41eb-4e13-942b-46123b501f04"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num6Button']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num6Button']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="a29ebb3c-6529-43af-8247-f2ebd3dd2aad"
+			name="PlusButton"
+			refimgid="79d9188b-6566-4e59-8c0b-8a0cfc03e4fd"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='plusButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='plusButton']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="b753e6e5-02c8-48cd-911e-04ff0925d289"
+			name="SomeText2"
+			refimgid="f4343558-94d0-48ec-ae15-5b0920fdc46c"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='equalButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='equalButton']/text[@name='&#59726;']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="77a19e41-1aa2-4890-bdc6-7d2bc5e91e69"
+			name="Num5Button"
+			refimgid="01ae743a-9df8-4eb8-90e8-f1d1b206b78c"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num5Button']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num5Button']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="ef5f93b6-5508-4736-8ac2-1fcd1ff21270"
+			name="MultiplyButton"
+			refimgid="fc83c860-2d7c-41bd-b150-7997b8a1c763"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='multiplyButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="be635bb4-7ea2-47a0-b51a-7353bda1c8a6"
+			name="Num9Button"
+			refimgid="fcbc1f0f-79a2-47c2-9974-b38276862143"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num9Button']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num9Button']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="0b153c89-1251-4033-8f9f-76bb023e48d3"
+			name="ClearButton"
+			refimgid="cc77341f-4cb9-4046-a160-ebf196ed35ec"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='clearButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c21272ca-64d7-4b0a-8efe-8ffc4c441525"
+			name="Num7Button"
+			refimgid="9ef97b3b-a876-4bc4-bb15-9467d95c9046"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num7Button']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num7Button']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="d401e8f0-7e11-45c4-8865-725fd1f5f206"
+			name="SomeText3"
+			refimgid="68c46407-f5e6-4ce3-87f3-7499dede4487"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='multiplyButton']/text[@name='&#59719;']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="4c86e66d-cb3d-4bd9-b53a-b55e45b2a79f"
+			name="SomeText4"
+			refimgid="0924859b-f4cf-49f1-8a63-69721e604ddc"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='minusButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='minusButton']/text[@name='&#59721;']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="05f13fb9-3cfb-4d92-a916-dd8cb6172472"
+			name="Text5"
+			refimgid="c1f1e7a7-f321-4e6d-982b-e887a660e7e2"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num5Button']/text[@name='5']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num5Button']/text[@name='5']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="3884d96a-633b-45f9-ba09-ce8b07d0d4a9"
+			name="Text6"
+			refimgid="9dbdbaef-e4db-4f30-bcfe-91e94da4f530"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='NumberPad']/button[@automationid='num6Button']/text[@name='6']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='num6Button']/text[@name='6']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="3519ac26-2c0c-4a04-bea5-2443c7cf499e"
+			name="EqualButton"
+			refimgid="61ff407f-d6a6-4ba9-9f66-d46ebef8bc77"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@automationid='StandardOperators']/button[@automationid='equalButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='equalButton']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABjSURBVDhPYwirKf4PwqQCmD7qGwDj48PI6qhv
+ALGAdgagsxvmToPyMOVAGK8LkDWjA6IMwAdwGgBiw2wmRg7DAFx+BgF0OawGEAtoZwA6G5eXYPrw
+ugBZMzogygB8AKKv+D8AE91SBuOrJpAAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
